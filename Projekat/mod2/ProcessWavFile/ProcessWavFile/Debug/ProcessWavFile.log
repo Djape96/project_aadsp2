@@ -1,0 +1,76 @@
+﻿  main.cpp
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(8): error C3646: 'threshold': unknown override specifier
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(9): error C3646: 'ratio': unknown override specifier
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(14): error C2061: syntax error: identifier 'DSPfract'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(44): error C2666: 'fract::operator *': 4 overloads have similar conversions
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(249): note: could be 'long_accum fract::operator *(const unsigned int &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(248): note: or       'long_accum fract::operator *(const long &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(247): note: or       'long_accum fract::operator *(const fract &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(395): note: or       'const coyote_math::accumulator operator *(const coyote_math::fixed_integer &,const coyote_math::ufixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(391): note: or       'const coyote_math::accumulator operator *(const coyote_math::fixed_t &,const coyote_math::ufixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(387): note: or       'const coyote_math::accumulator operator *(const coyote_math::ufixed_t &,const coyote_math::fixed_integer &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(383): note: or       'const coyote_math::accumulator operator *(const coyote_math::fixed_t &,const coyote_math::fixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(380): note: or       'const coyote_math::accumulator operator *(const coyote_math::ufixed_t &,const coyote_math::fixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(377): note: or       'const coyote_math::accumulator operator *(const coyote_math::ufixed_t &,const coyote_math::ufixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(44): note: while trying to match the argument list '(DSPfract, int)'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(68): error C2660: 'gst_audio_dynamic_transform_expander_double': function does not take 2 arguments
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(69): error C2660: 'gst_audio_dynamic_transform_expander_double': function does not take 2 arguments
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(99): error C2668: 'pow': ambiguous call to overloaded function
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(562): note: could be 'long double pow(long double,int) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(556): note: or       'long double pow(long double,long double) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(254): note: or       'float pow(float,int) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(248): note: or       'float pow(float,float) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(22): note: or       'double pow(double,int) noexcept'
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(470): note: or       'double pow(double,double)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(99): note: while trying to match the argument list '(int, const fract)'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(169): error C2666: 'fract::operator *': 4 overloads have similar conversions
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(249): note: could be 'long_accum fract::operator *(const unsigned int &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(248): note: or       'long_accum fract::operator *(const long &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(247): note: or       'long_accum fract::operator *(const fract &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(395): note: or       'const coyote_math::accumulator operator *(const coyote_math::fixed_integer &,const coyote_math::ufixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(391): note: or       'const coyote_math::accumulator operator *(const coyote_math::fixed_t &,const coyote_math::ufixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(387): note: or       'const coyote_math::accumulator operator *(const coyote_math::ufixed_t &,const coyote_math::fixed_integer &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(383): note: or       'const coyote_math::accumulator operator *(const coyote_math::fixed_t &,const coyote_math::fixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(380): note: or       'const coyote_math::accumulator operator *(const coyote_math::ufixed_t &,const coyote_math::fixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\fixed_point_math.h(377): note: or       'const coyote_math::accumulator operator *(const coyote_math::ufixed_t &,const coyote_math::ufixed_t &)'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(169): note: while trying to match the argument list '(DSPfract, const double)'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\main.cpp(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  expander.cpp
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(8): error C3646: 'threshold': unknown override specifier
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(9): error C3646: 'ratio': unknown override specifier
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(14): error C2061: syntax error: identifier 'DSPfract'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(19): error C2039: 'ratio': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(20): error C2039: 'threshold': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(25): error C2039: 'threshold': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(30): error C2039: 'threshold': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(30): error C2039: 'ratio': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(34): error C2039: 'ratio': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(35): error C2039: 'ratio': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(39): error C2666: 'fract::operator <': 2 overloads have similar conversions
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(240): note: could be 'bool fract::operator <(const fract &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(39): note: while trying to match the argument list '(DSPfract, double)'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(46): error C2039: 'ratio': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(47): error C2666: 'fract::operator >': 2 overloads have similar conversions
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(241): note: could be 'bool fract::operator >(const fract &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(47): note: while trying to match the argument list '(DSPfract, double)'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(47): error C2666: 'fract::operator <': 2 overloads have similar conversions
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\stdfix_emu.h(240): note: could be 'bool fract::operator <(const fract &) const'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(47): note: while trying to match the argument list '(DSPfract, double)'
+c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.cpp(50): error C2039: 'ratio': is not a member of '__AudioExpander'
+  c:\users\student\desktop\ra58-projekat\projekat\mod2\processwavfile\processwavfile\expander.h(7): note: see declaration of '__AudioExpander'
+  Generating Code...
